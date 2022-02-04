@@ -1,0 +1,114 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    
+    
+}
+img{
+    border-radius: 60px;
+    
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: cursive;
+}
+ol{
+    list-style-type: inherit;
+    list-style-position: inside;
+   
+    margin: 3px;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+ol li{
+    outline: 1px solid rgb(129, 206, 230);
+    padding: 10px;
+   
+}
+
+td{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th{
+    height: 50px;
+    font-family: cursive;
+}
+tr:hover{
+    background-color:rgb(137, 217, 219)
+}
+
+a{
+    font-size: 20px;
+    text-decoration:none;
+}
+body{
+    font-size: x-large;
+    background-color: rgb(231, 255, 249);
+}
+/*@media screen and (max-width:550px){
+    img {
+        width: 300px;
+        border-radius: 30px;
+    }
+
+}*/
+.title{
+    text-align: center;
+    background-color: rgb(212, 248, 248);
+}
+.para{
+    text-align: center;
+    
+}
+.main{
+   display: flex;
+   justify-content: center;
+}
+.boxcontainer{
+   
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.Table{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sub-part{
+    text-align: center;
+}
+.list{
+ display: flex;
+ justify-content: center;
+    
+}
+.a{
+        
+    margin-right: 20px;
+}
+.b{
+    margin-right: 20px;
+}
+
+.Footer{
+    text-align: center;
+    background-color: paleturquoise;
+}
+@media screen and (max-width:550px){
+   img{
+        width: 300px;
+    }
+}
+   
+        
+
+    
