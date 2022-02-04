@@ -4,11 +4,9 @@ h1{
     
     
 }
-img{
-    border-radius: 60px;
+
     
-    
-}
+
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -52,11 +50,7 @@ body{
     font-size: x-large;
     background-color: rgb(231, 255, 249);
 }
-/*@media screen and (max-width:550px){
-    img {
-        width: 300px;
-        border-radius: 30px;
-    }
+
 
 }*/
 .title{
@@ -67,6 +61,9 @@ body{
     text-align: center;
     
 }
+.poster-1{
+    border-radius: 20px;
+}
 .main{
    display: flex;
    justify-content: center;
@@ -75,7 +72,9 @@ body{
    
     display: flex;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 100px;
+   
+    
 }
 .Table{
     display: flex;
@@ -91,24 +90,34 @@ body{
  justify-content: center;
     
 }
-.a{
+.a1{
         
-    margin-right: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
 }
-.b{
+.b1{
     margin-right: 20px;
+   
+    margin-bottom: 20px;
+   
 }
+
 
 .Footer{
     text-align: center;
     background-color: paleturquoise;
 }
-@media screen and (max-width:550px){
-   img{
+@media screen and (max-width:870px){
+.boxcontainer{
+    
         width: 300px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .poster-1{
+        width: 300px;
+       
     }
 }
-   
-        
-
-    
